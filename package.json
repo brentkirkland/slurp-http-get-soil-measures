@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/brentkirkland/slurp-http-get-soil-measures/issues"
   },
-  "homepage": "https://github.com/brentkirkland/slurp-http-get-soil-measures#readme"
+  "homepage": "https://github.com/brentkirkland/slurp-http-get-soil-measures#readme",
+  "dependencies": {
+    "@google-cloud/datastore": "^1.0.0"
+  }
 }
