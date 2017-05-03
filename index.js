@@ -26,6 +26,7 @@ exports.getSoilMeasures = function getSoilMeasures (req, res) {
 
   datastore.runQuery(query)
   .then((results) => {
+    res.setHeader('Access-Control-Allow-Origin', '*')
     res.send(results)
   });
 };
